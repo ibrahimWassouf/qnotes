@@ -1,3 +1,5 @@
+import Main from "./components/Main.tsx";
+
 export default function Home() {
-  return <div>Hello</div>;
+  return <Main />;
 }
