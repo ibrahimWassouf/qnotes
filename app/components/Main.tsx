@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 export default function main() {
   return (
@@ -16,12 +17,7 @@ export default function main() {
       <div id="q-cards" className="relative flex flex-col w-1/3 h-full">
         <h2>Your cards</h2>
         <div id="card-list" className="h-80px w-80px">
-          <div id="card" className="m-2 p-2 rounded-lg bg-purple-300">
-            <h3 className="px-2">Card Title</h3>
-            <p className=" py-10 px-5 bg-purple-200 rounded-lg">
-              Long definition text
-            </p>
-          </div>
+          <Card />
         </div>
       </div>
     </main>
